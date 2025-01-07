@@ -1,0 +1,184 @@
+h4{
+    content:attr(data-hover);
+    color:white;
+    background-color:rgb(242, 130, 148);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:-12px;
+    animation-name:ani;
+    animation-iteration-count: infinite;
+}
+header{
+    background-color:white;
+}
+.begin{
+    width:20%;
+    height:20%;
+    margin-top:15px;
+}
+a{
+    color:black;
+    text-decoration:none;
+    padding-left:4%;
+}
+.start{
+    width:100%;
+    height:70%;
+}
+.pollo{
+background-color:white;
+border-radius:3px;
+border:none;
+font-size:20px;
+margin-top:-20%;
+}
+table,tr,td{
+    border:none;
+}
+.picture{
+    width:20%;
+    height:20%;
+}
+.hello{
+    animation-name:ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.read{
+   font-size:25px;
+   font-family:'Courier New', Courier, monospace;
+}
+.yoo{
+    background-color:rgb(254, 221, 227);
+}
+.become{
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+}
+.look{
+    background-color:black;
+    color:rgb(254, 221, 227);
+    border:none;
+    border-radius:3px;
+    font-size:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:20px;
+}
+.container{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:row;
+}
+.deer,.charles
+{
+    flex-basis:25%;
+}
+.deer img,.charles img{
+    width: 70%;
+    height:250px;
+    margin:0;
+    padding: 0;
+}
+.deer h3,.deer p, .charles h3{
+    text-align:center;
+    margin:0px;
+    padding:0;
+}
+.deer button{
+    width:fit-content;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:3px;
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.container1{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:row;
+}
+.beautiful{
+    flex-basis:33%;
+}
+.beautiful img{
+    width:60px;
+    height:30%;
+}
+.container2{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+}
+.beau{
+    flex-basis:33%;
+}
+.beau img{
+    width:80%;
+    height:200px;
+}
+.ending{
+    color:rgb(254, 221, 227);
+    background-color:black;
+    border:none;
+    border-radius:3px;
+    font-size:18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container3{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:row;
+}
+.wupwup{
+    flex-basis:25%;
+    flex-direction:column;
+    background-color:black;
+}
+.wupwup a{
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:13px;
+}
+.wupwup p{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+.wupwup img{
+    width:15%;
+    height:30px;
+}
+.wupwup input{
+    background-color:black;
+    color:white;
+    border:2px solid white;
+    padding:10px;
+    font-size:15px;
+    /* text-wrap:wrap; */
+    word-wrap:break-word;
+    white-space:pre-line;
+
+}
+.wupwup button{
+    color:white;
+   position:relative;
+   right:24px;
+   /* width: 10px;
+  top: 10px ;
+  height:5px;
+  padding:0; */
+}
+.wupwup p :hover{
+    text-decoration:underline;
+}
+footer{
+    color:white;
+    background-color:black;
+    font-size:12px;
+    margin-top:-40px;
+}
